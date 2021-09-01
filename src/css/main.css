@@ -1,0 +1,78 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+.main-01
+{
+    background-image: url("../img/background1.jpg");
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1080px;
+}
+.ddaom
+{
+    margin: 89.1px 0 28px 317px;
+    display:inline-block;
+}
+.main__img
+{
+    height:123px;
+}
+.main__text__block-01
+{
+    width: 538px;
+    height: 120px;
+    margin: 0px 0px 0px 370px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: 0.39px;
+    text-align: left;
+    color: #616161;
+    display:inline-block;
+}
+.main__text__block-02
+{
+    width: 700px;
+    height: 120px;
+    margin: 10px 0px 0px 370px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: 0.39px;
+    text-align: left;
+    color: #616161;
+    display:inline-block;
+}
+.main__text-01
+{
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 0.68px;
+    color: #8064aa;
+}
+.main__text-02
+{
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 0.68px;
+    color: #4a4a4a;
+}
+.main__text-03
+{
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 0.68px;
+    color: #4a4a4a;
+    display:inline-block;
+}
+.main__bar
+{
+    width: 0px;
+    height: 151px;
+    border: solid 1px #afafaf;
+    margin:0px 0px 0px 375px;
+}
