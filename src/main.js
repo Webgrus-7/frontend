@@ -21,9 +21,17 @@ function Main() {
                     <span>{text}</span>
                 </div>
             </div>
+            <div className="main-02">
+                <span className="main__hash">#</span>
+                <span className="main__text-04">영어부터</span>
+                <div className="main__text__block-03">
+                <span className="main__text-04">전공까지</span>
+                </div>
+                
+            </div>
         </div>
         
     );
   }
   
-  export default Main;
+  export default Main

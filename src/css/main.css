@@ -3,8 +3,18 @@
 {
     background-image: url("../img/background1.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     width: 1920px;
     height: 1080px;
+}
+.main-02
+{
+    background-image: url("../img/background2.PNG");
+    background-repeat: no-repeat;
+    width: 1580px;
+    height: 1080px;
+    padding: 162px 184px 170px 156px;
+    background-size: cover;
 }
 .ddaom
 {
@@ -75,4 +85,40 @@
     height: 151px;
     border: solid 1px #afafaf;
     margin:0px 0px 0px 375px;
+}
+.main__hash
+{
+    width: 185px;
+    height: 345px;
+    margin: 0 71px 0 0;
+    opacity: 0.42;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 300px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.15;
+    letter-spacing: 4.5px;
+    text-align: left;
+    color: #384ea2;
+}
+.main__text-04
+{
+    width:600px;
+    height: 115px;
+    margin: 0px 193px 0 -130px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 130px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.15;
+    letter-spacing: 1.5px;
+    text-align: left;
+    color: #384ea2;
+    display:inline-block;
+}
+.main__text__block-03
+{
+    margin:-40px 0px 0px 510px;
 }
