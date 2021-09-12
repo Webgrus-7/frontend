@@ -3,18 +3,32 @@
 {
     background-image: url("../img/background1.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
     width: 1920px;
-    height: 1080px;
+    height: 1280px;
 }
 .main-02
 {
+    
+    width: 1580px;
+    height: 880px;
+    padding: 162px 184px 170px 156px;
+    position:relative;
+    z-index:1;
+}
+.main-02::after
+{
+    content: "";
+    display:block;
+    width: 100%;
+    height: 100%;
     background-image: url("../img/background2.PNG");
     background-repeat: no-repeat;
-    width: 1580px;
-    height: 1080px;
-    padding: 162px 184px 170px 156px;
     background-size: cover;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    opacity: 0.5;
 }
 .ddaom
 {
@@ -90,7 +104,6 @@
 {
     width: 185px;
     height: 345px;
-    margin: 0 71px 0 0;
     opacity: 0.42;
     font-family: 'Nanum Myeongjo', serif;
     font-size: 300px;
@@ -101,14 +114,24 @@
     letter-spacing: 4.5px;
     text-align: left;
     color: #384ea2;
+    margin:0 0 0 30px;
+}
+.main__dot
+{
+    width: 17px;
+    height: 17px;
+    border-radius:50%;
+    margin:0 45px 110px 5px;
+    background-color: #384ea2;
+    display:inline-block;
 }
 .main__text-04
 {
     width:600px;
     height: 115px;
-    margin: 0px 193px 0 -130px;
+    margin: 0px 193px 0 -180px;
     font-family: 'Nanum Myeongjo', serif;
-    font-size: 130px;
+    font-size: 100px;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -120,5 +143,54 @@
 }
 .main__text__block-03
 {
-    margin:-40px 0px 0px 510px;
+    margin:-50px 0px 0px 510px;
+}
+.main__text__block-04
+{
+    margin: -190px 0 0 0;
+}
+.main__text-05
+{
+    width: 500px;
+    height: 76px;
+    margin: -200px 0 20px 1037px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 27px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.41px;
+    text-align: right;
+    color: #5b5b5b;
+    display: inline-block;
+}
+.main__button
+{
+    width: 325px;
+    height: 105px;
+    margin: 20px 0 230px 1205px;
+    border-radius: 101px;
+    border: solid 4px #384ea2;
+    display: inline-block;
+    text-align:center;
+    position:relative;
+}
+.main__button__text
+{
+    width: 206px;
+    height: 45px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #384ea2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
