@@ -1,0 +1,54 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+.login__outer
+{
+    width: 1920px;
+    height: 1080px;
+    background-color: #fbfbfb;
+}
+.feed__text-01
+{
+    width: 60px;
+    height: 31px;
+    margin: 36.1px 593px 33px 130px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 27px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.15;
+    letter-spacing: 0.41px;
+    text-align: left;
+    color: #4a4a4a;
+    display: inline-block;
+    }
+.feed__text-02
+{
+    width: 50px;
+    height: 61px;
+    margin: 21.1px 0px 18px 250px;
+    opacity: 0.74;
+    font-family: Helvetica;
+    font-size: 50px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: #384ea2;
+    display: inline-block;
+}
+.login__bar
+{
+    width: 1920px;
+    height: 0;
+    border: solid 0.1px #ededed;
+}
+.login__inner
+{
+    width: 1920px;
+    height: 782px;
+    margin: 0px 0 1px;
+    padding: 0 0 163px;
+    background-color: #fefefe;
+}
