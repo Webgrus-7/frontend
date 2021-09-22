@@ -5,15 +5,12 @@
     font-weight: normal;
     font-style: normal;
 }
-body
-{
-    overflow: hidden;
-}
 .login__outer
 {
     width: 1920px;
     height: 1080px;
     background-color: #fbfbfb;
+    overflow: hidden;
 }
 .feed__text-01
 {
@@ -83,7 +80,7 @@ body
 {
     width: 121px;
     height: 61px;
-    margin: 70px 327px 60px 327px;
+    margin: 134px 327px 60px 327px;
     font-family: 'SpoqaHanSansNeo-Regular', serif;
     font-size: 48px;
     font-weight: normal;
