@@ -1,4 +1,6 @@
-import Header from "./header";
+import Header_1 from "./header";
+import Header_2 from "./header2";
+import { Link } from "react-router-dom";
 import "./css/join.css";
 import Register from "./img/register_title.png"
 
@@ -8,13 +10,10 @@ function Join()
         "기반으로 한 공부하는 모두를 위한 공유 스터디서비스"]
     return (
         <div className="join__outer">
-            <Header />
-            <span className="feed__text-01">피드</span>
-            <span className="feed__text-02">Q</span>
-            <span className="feed__text-03">내 피드</span>
-            <div className="join__bar"></div>
+            <Header_1 />
+            <Header_2 />
             <div className="join__block-01">
-                <img className="join__img" src={Register}></img>
+                <img className="join__img-01" src={Register}></img>
                 <span className="join__block__text-01">회원가입</span>
                 <span className="join__block__text-02">Welcome!</span>
                 <span className="join__block__text-03">
@@ -36,9 +35,11 @@ function Join()
                     <form>
                         <input type="text" className="ID__input"></input>
                     </form>
-                    <div className="join__block__button">
+                    <Link to="/join2">
+                    <div className="join__block__button-01">
                         <span className="join__block__button__text">다음</span>
                     </div>
+                    </Link>
                 </div>
             </div>
             <div className="join__block-03">
