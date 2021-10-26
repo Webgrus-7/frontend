@@ -1,15 +1,17 @@
 import Header from "./header";
+import Header2 from "./header2";
 import "./css/main.css";
 import ddaom from "./img/ddaom1.png";
 import arrow from "./img/arrow.png";
 function Main() {
-    let text_01 = ["나만의 공부메이트, 웹 테스트와 함께해요.",<br/>,
-        "웹테스트인과 차근차근 함께 성장할 수 있어요."]
-    let text_02 = ["웹테스트면 충분해!",<br/>,"웹테스트로 정보공유와 풀이 Q&A까지."]
+    let text_01 = ["나만의 공부메이트, 가치풀자와 함께해요.",<br/>,
+        "가치풀자와 차근차근 함께 성장할 수 있어요."]
+    let text_02 = ["가치풀자면 충분해!",<br/>,"가치풀자로 정보공유와 풀이 Q&A까지."]
     return (
         <div className="main">
+            <Header />
+            <Header2 />
             <div className="main-01">
-                <Header />
                 <div className="main__img">
                 <img src={ddaom} className="ddaom"></img>
                 </div>

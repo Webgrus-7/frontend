@@ -7,6 +7,9 @@
     background-repeat: no-repeat;
     width: 1920px;
     height: 1280px;
+    position:relative;
+    z-index:-1;
+    margin-top:-33px;
 }
 .main-02
 {
