@@ -17,6 +17,9 @@ function Join()
                     의 모든 서비스를 자유롭게 이용하실 수 있습니다.</div>
                     </div>
                 </span>
+                <div className="join__complete__button">
+                    <span className="join__complete__button__text">메인으로</span>
+                </div>
             </div>
         </div>
     );

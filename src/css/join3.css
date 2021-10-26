@@ -38,3 +38,29 @@
 {
     margin: 0 0 0 560px;
 }
+.join__complete__button
+{
+    width: 83px;
+    height: 27px;
+    margin: 214px 0 0 1623px;
+    padding: 15px 45px 16px;
+    border-radius: 101px;
+    border: solid 2px #384ea2;
+    display: table;
+}
+.join__complete__button__text
+{
+    width: 82px;
+    height: 27px;
+    font-family: 'SpoqaHanSansNeo-Regular', serif;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: 0.33px;
+    text-align: center;
+    color: #384ea2;
+    display:table-cell;
+    vertical-align: middle;
+}
