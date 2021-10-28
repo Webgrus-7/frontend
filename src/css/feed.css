@@ -1,0 +1,284 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@font-face {
+    font-family: 'Vitro_core';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/Vitro_core.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body
+{
+    overflow: hidden;
+}
+.feed__outer-01
+{
+    width: 1920px;
+    height: 1080px;
+    background-color: #fbfbfb;
+}
+.feed__inner-01
+{
+    width: 1920px;
+    height: 782px;
+    margin: 1px 0 0;
+    padding: 100px 175px 123.6px 166px;
+    background-color: #fefefe;
+    display:flex;
+}
+.feed__block-01
+{
+    width: 337px;
+    height: 782px;
+}
+.feed__profile
+{
+    width: 231px;
+    height: 218px;
+    margin: 7px 0 6px 17px;
+    border-radius: 50%;
+    opacity: 0.18;
+    background-color: #384ea2;
+    position: absolute;
+    display: inline-block;
+}
+.feed__profile__img
+{
+    width: 230px;
+    height: 231px;
+    margin: 0 18px 0 0;
+    opacity: 0.81;
+}
+.feed__bar-01
+{
+    width: 0;
+    height: 173.5px;
+    margin: 137.5px 0 0 24px;
+    opacity: 0.44;
+    border: solid 2px #4a4a4a;
+    position: absolute;
+}
+.feed__profile__text-01
+{
+    width: 85px;
+    height: 32px;
+    margin: 135px 11px 0px 44px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 28px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #384ea2;
+    display: inline-block;
+}
+.feed__profile__text-02
+{
+    width: 94px;
+    height: 28px;
+    margin: 10px 0 0 44px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 0.36px;
+    text-align: left;
+    color: #4a4a4a;
+    display: inline-block;
+}
+.feed__profile__text-03
+{
+    width: 109px;
+    height: 32px;
+    margin: 35px 11px 10px 44px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 28px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #384ea2;
+    display: inline-block;
+}
+.feed__profile__text-04
+{
+    width: 191px;
+    height: 28px;
+    margin: 10px 0 0px 44px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 0.36px;
+    text-align: left;
+    color: #4a4a4a;
+}
+.feed__block-02
+{
+    width: 1417px;
+    height: 782px;
+}
+.feed__bar-02
+{
+    width: 0;
+    height: 541.4px;
+    margin: 17px 0 0;
+    opacity: 0.25;
+    border: solid 1px #4a4a4a;
+    border-style: dashed;
+}
+.ddaom
+{
+    width: 52px;
+    height: 94px;
+    margin: 20px 191px 0 80px;
+    font-family: 'Vitro_core', serif;
+    font-size: 80px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #384ea2;
+    display: inline-block;
+    position: absolute;
+}
+.feed__profile__text-05
+{
+    width: 260px;
+    height: 28px;
+    margin: 85px 0 0 80px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.12;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+    display:inline-block;
+}
+.feed__bar-03
+{
+    width: 398.2px;
+    height: 0;
+    opacity: 0.61;
+    border: solid 3px #4a4a4a;
+    margin: 0px 0 0 500px;
+    display: inline-block;
+}
+.feed__profile__text-06
+{
+    width: 95px;
+    height: 35px;
+    margin: 16px 109.8px 11px -392px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 30px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 0.45px;
+    text-align: left;
+    color: #384ea2;
+}
+.feed__profile__text-07
+{
+    width: 95px;
+    height: 35px;
+    margin: 16px 109.8px 11px -22px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 30px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 0.45px;
+    text-align: left;
+    color: #384ea2;
+}
+.feed__bar-04
+{
+    width: 398.2px;
+    height: 0;
+    margin: 65px 0 0 -397px;
+    opacity: 0.61;
+    border: solid 1px #4a4a4a;
+    display: inline-block;
+}
+.feed__profile__text-08
+{
+    width: 38px;
+    height: 26px;
+    margin: 80px 157.8px 25px -386px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 23px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: 0.35px;
+    text-align: left;
+    color: #4a4a4a;
+}
+.feed__profile__text-09
+{
+    width: 38px;
+    height: 26px;
+    margin: 80px 157.8px 25px -13px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 23px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: 0.35px;
+    text-align: left;
+    color: #4a4a4a;
+}
+.feed__block-04
+{
+    display: flex;
+}
+.feed__profile__detail-01
+{
+    width: 273.2px;
+    height: 366.5px;
+    margin: 62.5px 25.8px 0 71.8px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+    border: solid 0.2px #d4d4d4;
+    background-color: #fefefd;
+}
+.feed__profile__detail-02
+{
+    width: 273.2px;
+    height: 366.5px;
+    margin: 62.5px 25.8px 0 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+    border: solid 0.2px #d4d4d4;
+    background-color: #fefefd;
+}
+.feed__profile__detail__text-01
+{
+    width: 231px;
+    height: 69px;
+    margin: 230.5px 26.4px 0 15.6px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 19px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: 0.29px;
+    text-align: left;
+    color: #141414;
+    display: inline-block;
+}
