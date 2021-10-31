@@ -11,10 +11,10 @@ function header() {
           <span className="login__text">로그인</span>
           <div className="bar"></div>
           <span className="join__text">회원가입</span>
-          <button className="makeQ">
-          <img src={pencil} className="button__img"></img>
-          <span className="button__text">문제 생성하기</span>
-        </button>
+            <button className="makeQ">
+            <img src={pencil} className="button__img"></img>
+            <span className="button__text">문제 생성하기</span>
+          </button>
         </div>
         
         </div>

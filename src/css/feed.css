@@ -5,6 +5,18 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 body
 {
     overflow: hidden;
@@ -29,7 +41,7 @@ body
     width: 337px;
     height: 782px;
 }
-.feed__profile
+.feed__profile-01
 {
     width: 231px;
     height: 218px;
@@ -40,7 +52,7 @@ body
     position: absolute;
     display: inline-block;
 }
-.feed__profile__img
+.feed__profile__img-01
 {
     width: 230px;
     height: 231px;
@@ -133,7 +145,7 @@ body
     border: solid 1px #4a4a4a;
     border-style: dashed;
 }
-.ddaom
+.ddaom-01
 {
     width: 52px;
     height: 94px;
@@ -244,7 +256,7 @@ body
     text-align: left;
     color: #4a4a4a;
 }
-.feed__block-04
+.feed__block-03
 {
     display: flex;
 }
@@ -281,4 +293,191 @@ body
     text-align: left;
     color: #141414;
     display: inline-block;
+}
+.feed__inner-02
+{
+    width: 1920px;
+    height: 782px;
+    margin: 1px 0 0;
+    padding: 93px 158px 93.4px 204px;
+    background-color: #fefefe;
+    display: flex;
+}
+.feed__table-01
+{
+    width: 395px;
+    height: 61px;
+    margin: 0 0 1.4px 1px;
+    padding: 18px 519px 18px 22px;
+    background-color: #ebebeb;
+}
+.feed__table__subject
+{
+    width: 220px;
+    height: 36px;
+    margin: 0 75px 2px 0;
+    font-family: 'SpoqaHanSansNeo-Medium', serif;
+    font-size: 29px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5b5b5b;
+}
+.feed__table__writer-01
+{
+    width: 55px;
+    height: 23px;
+    margin: 5px 0 0 0;
+    font-family: 'SpoqaHanSansNeo-Regular', serif;
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4e4e4e;
+    display: inline-block;
+}
+.feed__table__writer-02
+{
+    width: 52px;
+    height: 23px;
+    margin: 2px 21px 0 9px;
+    font-family: 'SpoqaHanSansNeo-Regular', serif;
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #848484;
+}
+.feed__table-02
+{
+    width: 935.8px;
+    height: 486.1px;
+    background-color: #f9f9f9;
+}
+.feed__table__button
+{
+    width: 54px;
+    height: 27px;
+    margin: 520px 46px 11.6px 99px;
+    padding: 15px 52px 16px;
+    border-radius: 101px;
+    border: solid 2px #384ea2;
+    text-align: center;
+}
+.feed__table__button__text
+{
+    width: 41px;
+    height: 27px;
+    font-family: 'SpoqaHanSansNeo-Regular', serif;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: 0.33px;
+    color: #384ea2;
+}
+.feed__bar-05
+{
+    width: 0;
+    height: 595.6px;
+    opacity: 0.25;
+    border: solid 1px #4a4a4a;
+    border-style: dashed;
+    margin: -15px 0 0 0;
+    opacity: 0.1;
+}
+.feed__profile-02
+{
+    width: 231px;
+    height: 218px;
+    margin: 7px 0px 6px 83px;
+    opacity: 0.18;
+    background-color: #384ea2;
+    border-radius: 50%;
+    position: relative;
+}
+.feed__profile__img-02 
+{
+    width: 230px;
+    height: 231px;
+    margin: 0 18px 0 -250px;
+    opacity: 0.81;
+}
+.ddaom-02
+{
+    width: 52px;
+    height: 94px;
+    margin: 250px 0px 0 -248px;
+    font-family: 'Vitro_core', serif;
+    font-size: 80px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: normal;
+    text-align: left;
+    color: #384ea2;
+}
+.feed__profile__text-010
+{
+    width: 253px;
+    height: 28px;
+    margin: 310px 0 0 -50px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.12;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+}
+.feed__bar-06
+{
+    width: 25.5px;
+    height: 0;
+    margin: 435px 0 0 -250px;
+    opacity: 0.44;
+    border: solid 2px #4a4a4a;
+}
+.feed__profile__text-011
+{
+    width: 85px;
+    height: 32px;
+    margin: 455px 11px 10px -33px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 28px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #384ea2;
+}
+.feed__profile__text-012
+{
+    width: 95px;
+    height: 28px;
+    margin: 498px 0 0 -95px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: 0.36px;
+    text-align: left;
+    color: #4a4a4a;
 }
