@@ -297,7 +297,7 @@ body
 .feed__inner-02
 {
     width: 1920px;
-    height: 782px;
+    height: 1080px;
     margin: 1px 0 0;
     padding: 93px 158px 93.4px 204px;
     background-color: #fefefe;
@@ -359,8 +359,9 @@ body
 }
 .feed__table-02
 {
-    width: 935.8px;
-    height: 486.1px;
+    width: 899.8px;
+    height: 450.1px;
+    padding: 18px;
     background-color: #f9f9f9;
 }
 .feed__table__button
@@ -385,6 +386,7 @@ body
     line-height: 1.23;
     letter-spacing: 0.33px;
     color: #384ea2;
+    
 }
 .feed__bar-05
 {
@@ -480,4 +482,75 @@ body
     letter-spacing: 0.36px;
     text-align: left;
     color: #4a4a4a;
+}
+.feed__table-03
+{
+    width: 873px;
+    height: 149.1px;
+    padding: 22.5px 30px 20.4px 33px;
+    background-color: #dbdbdb;
+}
+.feed__table__text-01
+{
+    width: 127px;
+    height: 23px;
+    font-family: 'SpoqaHanSansNeo-Regular', serif;
+    font-size: 19px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4e4e4e;
+}
+.feed__bar-07
+{
+    width: 0;
+    height: 21.5px;
+    margin: 0 0 -3px 0;
+    opacity: 0.69;
+    border: solid 2px #654b8d;
+    display: inline-block;
+}
+.feed__table__text-02
+{
+    width: 53px;
+    height: 35px;
+    margin: 0 0 0 7px;
+    font-family: 'SpoqaHanSansNeo-Regular', serif;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: 0.42px;
+    text-align: left;
+    color: #384ea2;
+    display: inline-block;
+}
+.feed__table__text-03
+{
+    width: 126px;
+    height: 34px;
+    margin: 80px 0 0 755px;
+    font-family: 'SpoqaHanSansNeo-Regular', serif;
+    font-size: 27px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: left;
+    color: #5b5b5b;
+    display: inline-block;
+}
+.feed__bar-08
+{
+    width: 0;
+    height: 946.6px;
+    opacity: 0.1;
+    margin: -20px 0 0 0;
+    border: solid 1px #4a4a4a;
+    border-style: dashed;
 }

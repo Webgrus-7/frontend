@@ -2,6 +2,7 @@ import Header1 from "./header"
 import Header2 from "./header2"
 import "./css/feed.css"
 import profile from "./img/profile.png"
+import { Link } from "react-router-dom";
 function feed()
 {
     return (
@@ -22,7 +23,9 @@ function feed()
                     <div className="feed__table-02"></div>
                 </div>
                 <div className="feed__table__button">
+                    <Link to="/feed3" style={{textDecoration: 'none'}}>
                     <span className="feed__table__button__text">다음</span>
+                    </Link>
                 </div>
                 <div className="feed__bar-05"></div>
                 <div className="feed__profile-02"></div>
