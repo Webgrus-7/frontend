@@ -554,3 +554,210 @@ body
     border: solid 1px #4a4a4a;
     border-style: dashed;
 }
+.feed__bar-09
+{
+    width: 368.5px;
+    height: 0;
+    opacity: 0.44;
+    margin: 200px 0 0 -250px;
+    border: solid 2px #4a4a4a;
+    background-color: rgba(0, 0, 0, 0);
+}
+.feed__table__text-04
+{
+    width: 108px;
+    height: 25px;
+    margin: 215px 0 0 -370px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 22px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.14;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #384ea2;
+    display: inline-block;
+}
+.feed__table__text-05
+{
+    width: 111px;
+    height: 26px;
+    margin: 213px 0 19.5px 151.5px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 23px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: 0.35px;
+    text-align: left;
+    color: #4a4a4a;
+    display: inline-block;
+}
+.feed__table__text-06
+{
+    width: 290px;
+    height: 52px;
+    margin: 260px 0 0 -370px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: 0.35px;
+    text-align: left;
+    color: #4a4a4a;
+}
+.feed__inner-03
+{
+    width: 1920px;
+    height: 1023px;
+    margin: 1px 0 0;
+    padding: 66.7px 552px 103px;
+    background-color: #fefefe;
+}
+.feed__question__text-01
+{
+    width: 50px;
+    height: 22px;
+    margin: 0 187px 10px 50px;
+    font-family: 'SpoqaHanSansNeo-Regular', serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: center;
+    color: #384ea2;
+    display: inline-block;
+}
+.feed__question__input-01
+{
+    width: 205px;
+    height: 40px;
+    margin: 0px 542px 0 59px;
+    position: relative;
+    padding: 0 0 0 9px;
+    border: solid 1.3px #b5b5b5;
+    font-family: 'SpoqaHanSansNeo-Regular', serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+}
+.feed__question__input-02
+{
+    width: 297px;
+    height: 30px;
+    margin: 10px 0 17px;
+    padding: 8px 438.5px 7px 9px;
+    border: solid 1.3px #b5b5b5;
+    margin: 0 0 0 59px;
+    font-family: 'SpoqaHanSansNeo-Regular', serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #4a4a4a;
+}
+.feed__question__input-03
+{
+    width: 747px;
+    height: 350px;
+    margin: -5px 0.1px 43px 50px;
+    padding: 9px;
+    border: 0px;
+    resize: none;
+}
+.ck.ck-editor__editable:not(.ck-editor__nested-editable) {
+    min-height: 349.3px;
+}
+.feed__question__button-01
+{
+    width: 67px;
+    height: 27px;
+    margin: 143px 0 0 252.9px;
+    padding: 15px 39px 16px;
+    border-radius: 101px;
+    border: solid 2px #384ea2;
+    display: inline-block;
+    font-family: 'SpoqaHanSansNeo-Regular', serif;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #384ea2;
+}
+.feed__question__button-01:hover
+{
+    width: 67px;
+    height: 27px;
+    margin: 143px 0 0 252.9px;
+    padding: 15px 39px 16px;
+    border-radius: 101px;
+    border: solid 2px #384ea2;
+    background-color: #384ea2;
+    display: inline-block;
+    font-family: 'SpoqaHanSansNeo-Regular', serif;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #fff;
+}
+.feed__question__button-02
+{
+    width: 45px;
+    height: 27px;
+    margin: 0 0 0 20px;
+    padding: 15px 50px 20px;
+    border-radius: 101px;
+    border: solid 2px #384ea2;
+    display: inline-block;
+    font-family: 'SpoqaHanSansNeo-Regular', serif;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #384ea2;
+}
+.feed__question__button-02:hover
+{
+    width: 45px;
+    height: 27px;
+    margin: 0 0 0 20px;
+    padding: 15px 50px 20px;
+    border-radius: 101px;
+    border: solid 2px #384ea2;
+    background-color: #384ea2;
+    color: #fff;
+    display: inline-block;
+    font-family: 'SpoqaHanSansNeo-Regular', serif;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.23;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #fff;
+}

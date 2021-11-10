@@ -2,6 +2,8 @@ import Header1 from "./header"
 import Header2 from "./header2"
 import "./css/feed.css"
 import { Link } from "react-router-dom";
+
+
 function feed()
 {
     return (
@@ -45,6 +47,27 @@ function feed()
                         </div>
                 <div className="feed__bar-08"></div>
                 <span className="ddaom-02" style={{marginTop: '0px', marginLeft: '42px'}}>“</span>
+                <span className="feed__profile__text-010" style={{marginTop: '60px'}}>문제에 대한 한 마디.</span>
+                <div className="feed__bar-09"></div>
+                <span className="feed__table__text-04">가치풀자짱</span>
+                <span className="feed__table__text-05">★★★★☆</span>
+                <span className="feed__table__text-06">가치풀자 너무 좋아요 어쩌고 저쩌고 댓글창</span>
+                <div className="feed__bar-09" style={{marginTop: '320px', marginLeft: '-293px'}}></div>
+                <span className="feed__table__text-04" style={{marginTop: '335px'}}>가치풀자짱</span>
+                <span className="feed__table__text-05" style={{marginTop: '335px'}}>★★★★☆</span>
+                <span className="feed__table__text-06" style={{marginTop: '380px'}}>가치풀자 너무 좋아요 어쩌고 저쩌고 댓글창</span>
+                <div className="feed__bar-09" style={{marginTop: '440px', marginLeft: '-293px'}}></div>
+                <span className="feed__table__text-04" style={{marginTop: '455px'}}>가치풀자짱</span>
+                <span className="feed__table__text-05" style={{marginTop: '455px'}}>★★★★☆</span>
+                <span className="feed__table__text-06" style={{marginTop: '500px'}}>가치풀자 너무 좋아요 어쩌고 저쩌고 댓글창</span>
+                <div className="feed__bar-09" style={{marginTop: '560px', marginLeft: '-293px'}}></div>
+                <span className="feed__table__text-04" style={{marginTop: '575px'}}>가치풀자짱</span>
+                <span className="feed__table__text-05" style={{marginTop: '575px'}}>★★★★☆</span>
+                <span className="feed__table__text-06" style={{marginTop: '620px'}}>가치풀자 너무 좋아요 어쩌고 저쩌고 댓글창</span>
+                <div className="feed__bar-09" style={{marginTop: '680px', marginLeft: '-293px'}}></div>
+                <span className="feed__table__text-04" style={{marginTop: '695px'}}>가치풀자짱</span>
+                <span className="feed__table__text-05" style={{marginTop: '695px'}}>★★★★☆</span>
+                <span className="feed__table__text-06" style={{marginTop: '740px'}}>가치풀자 너무 좋아요 어쩌고 저쩌고 댓글창</span>
             </div>
         </div>
     );
