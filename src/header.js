@@ -7,12 +7,18 @@ import { Link } from "react-router-dom";
 function header() {
     return (
         <div className="header">
-      <span className="title">가치풀자</span>
+          <Link to="/">
+          <span className="title">가치풀자</span>
+          </Link>
       <div className="menu">
         <div className="login">
+          <Link to="/login">
           <span className="login__text">로그인</span>
+          </Link>
           <div className="bar"></div>
+          <Link to="/join1">
           <span className="join__text">회원가입</span>
+          </Link>
           <Link to="/feed4">
             <button className="makeQ">
             <img src={pencil} className="button__img"></img>

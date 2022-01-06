@@ -17,12 +17,9 @@
     font-weight: normal;
     font-style: normal;
 }
-body
-{
-    overflow: hidden;
-}
 .feed__outer-01
 {
+    overflow: hidden;
     width: 1920px;
     height: 1080px;
     background-color: #fbfbfb;
@@ -615,7 +612,7 @@ body
     width: 1920px;
     height: 1023px;
     margin: 1px 0 0;
-    padding: 66.7px 552px 103px;
+    padding: 66.7px 552px 0px;
     background-color: #fefefe;
 }
 .feed__question__text-01
@@ -686,7 +683,7 @@ body
 {
     width: 67px;
     height: 27px;
-    margin: 143px 0 0 252.9px;
+    margin: 60px 0 0 252.9px;
     padding: 15px 39px 16px;
     border-radius: 101px;
     border: solid 2px #384ea2;
@@ -705,7 +702,7 @@ body
 {
     width: 67px;
     height: 27px;
-    margin: 143px 0 0 252.9px;
+    margin: 60px 0 0 252.9px;
     padding: 15px 39px 16px;
     border-radius: 101px;
     border: solid 2px #384ea2;

@@ -4,12 +4,16 @@ import { Link } from "react-router-dom";
 
 function header2() {
   return (
-    <div className="login__outer">
+    <div className="login__outer-02">
       <div className="menu">
-        <span className="feed__text-01">피드</span>
-        <img src={menu_q} className="q"></img>
         <Link to="/feed1">
-        <span className="feed__text-02">내 피드</span>
+        <span className="feed__text-04">피드</span>
+        </Link>
+        <Link to="/search">
+        <img src={menu_q} className="q"></img>
+        </Link>
+        <Link to="/my_feed">
+        <span className="feed__text-05">내 피드</span>
         </Link>
       </div>
     </div>
