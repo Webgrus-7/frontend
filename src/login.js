@@ -27,7 +27,7 @@ function Login()
                     <span className="login__block__button__text">로그인</span>
                 </div>
                 <Link to="/join1">
-                    <span className="login__block__text-02">web test가 처음이신가요?</span>
+                    <span className="login__block__text-02">가치풀자가 처음이신가요?</span>
                 </Link>
             </div>
             <div className="login__block-03">

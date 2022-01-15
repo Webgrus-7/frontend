@@ -6,6 +6,7 @@ import main2book from "./img/main2book.png";
 import ddaom1 from "./img/ddaom1.png";
 import main2heart from "./img/main2heart.png";
 import background3 from "./img/background3.png";
+import { Link } from "react-router-dom";
 
 function main2() {
   return (
@@ -71,7 +72,9 @@ function main2() {
           </div>
         </div>
         <div class="sub5">
+          <Link to="/search">
           <input type="button" class="more" value="추천 피드 더 보기"></input>
+          </Link>
           <div class="main2_boxList">
             <div class="main2_box">
               <div class="main2_box_title">

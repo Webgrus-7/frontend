@@ -25,7 +25,7 @@ function Join2()
                 </div>
                 </span>
                 </div>
-                <span className="EMAIL__text">아이디</span>
+                <span className="EMAIL__text">이메일</span>
                 <form>
                     <input type="text" className="EMAIL__input"></input>
                 </form>

@@ -29,7 +29,7 @@ function Join()
                     </form>
                     <span className="ID__text">비밀번호 확인</span>
                     <form>
-                        <input type="text" className="ID__input"></input>
+                        <input type="password" className="ID__input"></input>
                     </form>
                     <span className="ID__text">닉네임</span>
                     <form>

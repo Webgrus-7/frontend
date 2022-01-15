@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function header2() {
   return (
     <div className="login__outer-02">
-      <div className="menu">
+      <div className="menu-02">
         <Link to="/feed1">
         <span className="feed__text-04">피드</span>
         </Link>
