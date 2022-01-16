@@ -38,17 +38,12 @@ body {
   margin-top: 38px;
 }
 .menu {
-  display: inline-block;
-  text-align: right;
-  height: 72px;
+  display: flex; /*넣어야 일렬가능*/
   margin-right: 60px;
   margin-top: 35px;
 }
 .login {
   margin-top: 20px;
-}
-a {
-  text-decoration: none;
 }
 .login__text {
   margin: 0 31.5px 0 0;
@@ -60,12 +55,10 @@ a {
   line-height: 1.15;
   letter-spacing: 0.41px;
   text-align: left;
-  text-decoration: none;
   color: #4a4a4a;
 }
-
 .join__text {
-  margin: 0 0 0 31.5px;
+  margin: 0 31.5px 0 31.5px;
   font-family: "Nanum Myeongjo", serif;
   font-size: 20px;
   font-weight: bold;
@@ -79,10 +72,8 @@ a {
 .makeQ {
   width: 200px;
   height: 55px;
-  margin: 4px 0 0 40px;
   border-radius: 8px;
   background-color: #384ea2;
-  display: inline-block;
   text-align: center;
   border-style: none;
   padding-bottom: 18px;
@@ -110,8 +101,4 @@ a {
   letter-spacing: 0.41px;
   color: #f1f1f1;
   display: inline-block;
-}
-.feed__block-03
-{
-    display: flex;
 }
