@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/search.css";
-import Header from "./header";
+import Header1 from "./header";
 import Header2 from "./header2";
 import searchbttn from "./img/searchbttn.png";
 
@@ -8,10 +8,26 @@ function search() {
   let text_tag = ["#어쩌고 #저쩌고 #어쩌고"];
   return (
     <div className="search">
-        <Header />
-        <Header2 />
-      <div class="searchengine">
-        <input type="text" placeholder="문제를 검색하세요." class="find"></input>
+      <Header1 />
+      <Header2 />
+      <div class="sort">
+        <span className="sort_title">난이도</span>
+        <select className="sort_option">
+          <option>★☆☆☆☆</option>
+          <option>★★☆☆☆</option>
+          <option>★★★☆☆</option>
+          <option>★★★★☆</option>
+          <option>★★★★★</option>
+          <option>none</option>
+        </select>
+        <span className="sort_title">분야</span>
+        <select className="sort_option">
+          <option>전공</option>
+          <option>교양</option>
+          <option>토익</option>
+          <option>토플</option>
+          <option>none</option>
+        </select>
         <img src={searchbttn} class="searchbttn"></img>
       </div>
       <div className="Qlist">
